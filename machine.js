@@ -86,7 +86,7 @@ function getOneStoreData(storeNum,noOfScreens,startingWeek,endingWeek){
 function getPaymentData(startingWeek,endingWeek){
     let Commission=getRandom(4,20)*500;
     Commission = Commission.toFixed(0)
-    let str=`\t"Payment" : {\n`;
+    let str=`\t"payment" : {\n`;
     str+=getAllWeekData(startingWeek,endingWeek);
     str+=`\n\t\t},\n`;
     str+=`\t\t"totalCommission" : ${Commission},\n`;
@@ -97,14 +97,14 @@ function getPaymentData(startingWeek,endingWeek){
 
 function getOneScreenData(screenNum){
     let str=`\t\t"${screenNum}":{\n`;
-    str+=`\t\t\t"lockUnlock" : 1 ,\n`
+    str+=`\t\t\t"lockStatus" : 1 ,\n`
     str+=`\t\t\t"loggedinStatus" : 0`;
     str+=`\n\t\t\t}`;
     return str;
 }
 
 function getAllScreenData(screenNum){
-    let str=`\n\t"Screens" : {\n`;
+    let str=`\n\t"screens" : {\n`;
     for(let i=1;i<=screenNum;i++){
         str+=getOneScreenData(i);
         if(i<screenNum)
@@ -115,7 +115,8 @@ function getAllScreenData(screenNum){
 }
 
 function getAllWeekData(startingWeek,endingWeek){
-    let str=`\t\t"Weeks" : {\n`;
+    let str=`\t\t"weeks" : {\n`;
+    str+=`\t\t"start": ${startingWeek},\n`;
     for(let i=startingWeek;i<=endingWeek;i++){
         str+=getOneWeekData(i);
         if(i<endingWeek)
@@ -131,15 +132,15 @@ function getStoreDetails(){
     let lastName = getNamefromRandomIndex()
 
     str+=`\t"details" : {
-        "Address" : "${lastName}${firstName}, Street" ,
-        "City" : "${city[getRandom(1,cityLength)]}",
-        "CompanyName" : "${lastName} Company",
-        "Email" : "${firstName}${lastName}@gmail.com",
-        "OwnerName" : "${firstName} ${lastName}",
-        "Phone" : "+${getRandom(1,9)}(${getRandom(100,999)})${getRandom(100,999)}-${getRandom(10,99)}-${getRandom(10,99)}",
-        "State" : "${states[getRandom(1,statesLength)]}",
-        "StoreName" : "${lastName} Gaming",
-        "Zipcode" : "${getRandom(100,999)} ${getRandom(100,999)}"
+        "address" : "${lastName}${firstName}, Street" ,
+        "city" : "${city[getRandom(1,cityLength)]}",
+        "companyName" : "${lastName} Company",
+        "email" : "${firstName}${lastName}@gmail.com",
+        "ownerName" : "${firstName} ${lastName}",
+        "phone" : "+${getRandom(1,9)}(${getRandom(100,999)})${getRandom(100,999)}-${getRandom(10,99)}-${getRandom(10,99)}",
+        "state" : "${states[getRandom(1,statesLength)]}",
+        "storeName" : "${lastName} Gaming",
+        "zipCode" : "${getRandom(100,999)} ${getRandom(100,999)}"
         }`;
     return str;
 }
