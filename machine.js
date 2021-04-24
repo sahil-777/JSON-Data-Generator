@@ -1,3 +1,55 @@
+
+var names = ["Smith","Johnson","Williams","Brown","Jones","Miller","Davis","Garcia","Rodriguez","Wilson","Martinez","Anderson","Taylor","Thomas","Hernandez","Moore","Martin","Jackson","Thompson","White","Lopez","Lee","Gonzalez","Harris","Clark","Lewis","Robinson","Walker","Perez","Hall","Young","Allen","Sanchez","Wright","King","Scott","Green","Baker","Adams","Nelson","Hill","Ramirez","Campbell","Mitchell","Roberts","Carter","Phillips","Evans","Turner","Torres","Parker","Collins","Edwards","Stewart","Flores","Morris","Nguyen","Murphy","Rivera","Cook","Rogers","Morgan","Peterson","Cooper","Reed","Bailey","Bell","Gomez","Kelly","Howard","Ward","Cox","Diaz","Richardson","Wood","Watson","Brooks","Bennett","Gray","James","Reyes","Cruz","Hughes","Price","Myers","Long","Foster","Sanders","Ross","Morales","Powell","Sullivan","Russell","Ortiz","Jenkins","Gutierrez","Perry","Butler","Barnes","Fisher"];
+var city = ["Los Angeles",
+    "San Diego",
+    "San Jose",
+    "San Francisco",
+    "Fresno",
+    "Sacramento",
+    "Long Beach",
+    "Oakland",
+    "Bakersfield",
+    "Anaheim",
+    "Santa Ana",
+    "Chicago",
+    "Aurora",
+    "Rockford",
+    "Joliet",
+    "Naperville",
+    "Springfield",
+    "Peoria",
+    "Elgin",
+    "Waukegan",
+    "Cicero",
+    "Champaign",
+    "Bloomington",
+    "Arlington Heights",
+    "Evanston",
+    "Decatur",
+    "Schaumburg",
+    "Bolingbrook"]
+
+var states = ["California",
+    "Colorado",
+    "Connecticut",
+    "Delaware",
+    "District Of Columbia",
+    "Federated States Of Micronesia",
+    "Florida",
+    "Georgia",
+    "Guam"]
+
+var nameLength = names.length
+var cityLength = city.length
+var statesLength = states.length
+
+// let OwnerName = getNamefromRandomIndex() + " " + getNamefromRandomIndex();
+
+// console.log("Email = ",`${firstName}${lastName}@gmail.com`);
+// console.log("Address", `${lastName}${firstName}, Street`)
+// console.log("Company =",`${lastName} Company`)
+// console.log("")
+
 function generate(){
     let noOfStores=parseInt(document.getElementById('no-of-stores').value);
     let startingWeek=parseInt(document.getElementById('starting-week').value);
@@ -33,6 +85,7 @@ function getOneStoreData(storeNum,noOfScreens,startingWeek,endingWeek){
 
 function getPaymentData(startingWeek,endingWeek){
     let Commission=getRandom(4,20)*500;
+    Commission = Commission.toFixed(0)
     let str=`\t"Payment" : {\n`;
     str+=getAllWeekData(startingWeek,endingWeek);
     str+=`\n\t\t},\n`;
@@ -73,22 +126,28 @@ function getAllWeekData(startingWeek,endingWeek){
 
 function getStoreDetails(){
     let str=``;
+
+    let firstName = getNamefromRandomIndex()
+    let lastName = getNamefromRandomIndex()
+
     str+=`\t"details" : {
-        "Address" : "${getRandomString(5)},${getRandomString(10)}",
-        "City" : "${getRandomString(6)}",
-        "CompanyName" : "${getRandomString(6)}",
-        "Email" : "${getRandomString(6)}@${getRandomString(6)}.com",
-        "OwnerName" : "${getRandomString(6)}  ${getRandomString(6)}",
+        "Address" : "${lastName}${firstName}, Street" ,
+        "City" : "${city[getRandom(1,cityLength)]}",
+        "CompanyName" : "${lastName} Company",
+        "Email" : "${firstName}${lastName}@gmail.com",
+        "OwnerName" : "${firstName} ${lastName}",
         "Phone" : "+${getRandom(1,9)}(${getRandom(100,999)})${getRandom(100,999)}-${getRandom(10,99)}-${getRandom(10,99)}",
-        "State" : "${getRandomString(10)}",
-        "StoreName" : "${getRandomString(8)}",
+        "State" : "${states[getRandom(1,statesLength)]}",
+        "StoreName" : "${lastName} Gaming",
         "Zipcode" : "${getRandom(100,999)} ${getRandom(100,999)}"
         }`;
     return str;
 }
 
+// }
 function getOneWeekData(weekNum){
     let Commission=getRandom(4,20)*50;
+    Commission = Commission.toFixed(0);
     let str=`\t\t"${weekNum}":{
     \t\t"billStatus" : ${getRandom(0,3)},
     \t\t"commission" : ${Commission},
@@ -112,4 +171,9 @@ function getRandomString(length){
         result.push(characters.charAt(Math.floor(Math.random()*charactersLength)));
     }
     return result.join('');
+}
+
+function getNamefromRandomIndex() {
+    var FN = getRandom(1,nameLength)
+    return names[FN]
 }
