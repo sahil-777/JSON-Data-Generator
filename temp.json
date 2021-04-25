@@ -1,0 +1,778 @@
+{
+  "Teqmo" : {
+    "Details" : {
+      "commissionRate" : {
+        "50" : "1"
+      }
+    },
+    "Numbers" : {
+      "3" : {
+        "2021" : {
+          "04" : {
+            "18" : [ {
+              "5NRlQnIpAUPJO4F7PJphNniwejk1" : {
+                "-MXXBHAK0TiSqRzkuWag" : "121,211,321,411,511",
+                "-MXXBLbR2JbeZ5FNaiKq" : "121,112,003,4,5"
+              },
+              "JQMJj6DvZihk63RDHoyCFq6rEYi1" : {
+                "-MXXBHAK0TiSqRzkuWag" : "121,221,3,4,5",
+                "-MXXBLbR2JbeZ5FNaiKq" : "121,212,3,4,5"
+              }
+            }, {
+              "5NRlQnIpAUPJO4F7PJphNniwejk1" : {
+                "-MXXBHAK0TiSqRzkuWag" : "122,112,113,344,235",
+                "-MXXBLbR2JbeZ5FNaiKq" : "212,121,327,411,511"
+              }
+            }, {
+              "5NRlQnIpAUPJO4F7PJphNniwejk1" : {
+                "-MXXBHAK0TiSqRzkuWag" : "187,287,368,674,675",
+                "-MXXBLbR2JbeZ5FNaiKq" : "187,278,376,479,598"
+              }
+            } ],
+            "23" : {
+              "2" : {
+                "5NRlQnIpAUPJO4F7PJphNniwejk1" : {
+                  "-MYzqnJEEcsAF27w0rZS" : "338,295,193,212,532,173,435,684,132,748,317,373,610,243,240,053,411,520,821,219,218,282,575,017,393"
+                }
+              }
+            }
+          }
+        }
+      },
+      "4" : {
+        "2021" : {
+          "04" : {
+            "18" : [ {
+              "5NRlQnIpAUPJO4F7PJphNniwejk1" : {
+                "-MXWjViKdXsKJgBqsUw9" : "1121,1211,2343,5784,9875"
+              }
+            } ],
+            "23" : {
+              "2" : {
+                "5NRlQnIpAUPJO4F7PJphNniwejk1" : {
+                  "-MYzpyqYrXDcZQLyugy_" : "5025,0495,7145,0828,1459,7150,0461,5366,1845,9037,2545,2514,1751,9441,4522,5557,1151,3462,2366,5531,2064,4519,2249,4281,1732"
+                }
+              }
+            },
+            "24" : {
+              "2" : {
+                "5NRlQnIpAUPJO4F7PJphNniwejk1" : {
+                  "-MZ35hszazUfioJRcKdN" : "0062,5465,4456,1826,6443,9519,8639,5126,6136,1412,6691,2818,5046,4585,3899,7195,0221,8936,2551,8543,8864,4264,0774,1523,3226"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Stores" : {
+      "5NRlQnIpAUPJO4F7PJphNniwejk1" : {
+        "details" : {
+          "address" : "JenkinsMorgan, Street",
+          "city" : "Bloomington",
+          "companyName" : "Jenkins Company",
+          "email" : "MorganJenkins@gmail.com",
+          "ownerName" : "Morgan Jenkins",
+          "phone" : "+6(969)696-96-96",
+          "state" : "California",
+          "storeName" : "Jenkins Gaming",
+          "zipCode" : "456 789"
+        },
+        "payment" : {
+          "totalCommission" : 71139.3,
+          "totalSales" : 80733,
+          "weeks" : {
+            "1" : {
+              "billStatus" : 1,
+              "commission" : 267,
+              "counter" : [ 27, 52, 154, 121, 48, 74, 58 ],
+              "sales" : 534
+            },
+            "2" : {
+              "billStatus" : 1,
+              "commission" : 582,
+              "counter" : [ 27, 54, 121, 60, 93, 100, 127 ],
+              "sales" : 1164
+            },
+            "3" : {
+              "billStatus" : 0,
+              "commission" : 0,
+              "counter" : [ 0, 0, 0, 0, 0, 5, 0 ],
+              "sales" : 0
+            },
+            "4" : {
+              "billStatus" : 1,
+              "commission" : 118.6,
+              "counter" : [ 52, 93, 100, 127, 84, 75, 62 ],
+              "sales" : 593
+            },
+            "5" : {
+              "billStatus" : 1,
+              "commission" : 62.8,
+              "counter" : [ 47, 12, 16, 24, 51, 75, 89 ],
+              "sales" : 314
+            },
+            "6" : {
+              "billStatus" : 2,
+              "commission" : 200,
+              "counter" : [ 95, 85, 14, 56, 32, 14, 41 ],
+              "sales" : 450
+            },
+            "7" : {
+              "billStatus" : 1,
+              "commission" : 64.6,
+              "counter" : [ 25, 15, 42, 63, 58, 45, 75 ],
+              "sales" : 323
+            },
+            "8" : {
+              "billStatus" : 1,
+              "commission" : 70.2,
+              "counter" : [ 63, 45, 85, 47, 12, 34, 65 ],
+              "sales" : 351
+            },
+            "9" : {
+              "billStatus" : 1,
+              "commission" : 650,
+              "counter" : [ 102, 14, 52, 75, 81, 56, 147 ],
+              "sales" : 1450
+            },
+            "10" : {
+              "billStatus" : 1,
+              "commission" : 106.8,
+              "counter" : [ 27, 52, 154, 121, 48, 74, 58 ],
+              "sales" : "450"
+            },
+            "start" : 1
+          }
+        },
+        "screens" : [ null, {
+          "lockStatus" : 0,
+          "loggedinStatus" : 1
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        } ]
+      },
+      "JQMJj6DvZihk63RDHoyCFq6rEYi1" : {
+        "details" : {
+          "address" : "RodriguezGutierrez, Street",
+          "city" : "Schaumburg",
+          "companyName" : "Rodriguez Company",
+          "email" : "GutierrezRodriguez@gmail.com",
+          "ownerName" : "Gutierrez Rodriguez",
+          "phone" : "+4(991)553-55-89",
+          "state" : "Guam",
+          "storeName" : "Rodriguez Gaming",
+          "zipCode" : "365 508"
+        },
+        "payment" : {
+          "totalCommission" : 3000,
+          "totalSales" : 9000,
+          "weeks" : {
+            "3" : {
+              "billStatus" : 1,
+              "commission" : 550,
+              "counter" : [ 175, 168, 140, 171, 137, 141, 141 ],
+              "sales" : 1650
+            },
+            "4" : {
+              "billStatus" : 0,
+              "commission" : 500,
+              "counter" : [ 54, 238, 128, 179, 211, 149, 209 ],
+              "sales" : 1500
+            },
+            "5" : {
+              "billStatus" : 2,
+              "commission" : 450,
+              "counter" : [ 151, 237, 122, 167, 242, 244, 153 ],
+              "sales" : 1800
+            },
+            "6" : {
+              "billStatus" : 2,
+              "commission" : 350,
+              "counter" : [ 133, 171, 162, 150, 148, 175, 159 ],
+              "sales" : 1400
+            },
+            "start" : 3
+          }
+        },
+        "screens" : [ null, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        } ]
+      },
+      "OaKf3UYSmeaRKUFgEwrezNWEWe53" : {
+        "details" : {
+          "address" : "ThomasPowell, Street",
+          "city" : "Bakersfield",
+          "companyName" : "Thomas Company",
+          "email" : "PowellThomas@gmail.com",
+          "ownerName" : "Powell Thomas",
+          "phone" : "+6(691)144-10-15",
+          "state" : "District Of Columbia",
+          "storeName" : "Thomas Gaming",
+          "zipCode" : "598 585"
+        },
+        "payment" : {
+          "totalCommission" : 5000,
+          "totalSales" : 20000,
+          "weeks" : {
+            "3" : {
+              "billStatus" : 2,
+              "commission" : 350,
+              "counter" : [ 178, 178, 142, 241, 170, 176, 106 ],
+              "sales" : 1400
+            },
+            "4" : {
+              "billStatus" : 0,
+              "commission" : 900,
+              "counter" : [ 126, 79, 206, 109, 115, 148, 149 ],
+              "sales" : 3600
+            },
+            "5" : {
+              "billStatus" : 0,
+              "commission" : 400,
+              "counter" : [ 116, 200, 149, 234, 203, 167, 135 ],
+              "sales" : 1600
+            },
+            "6" : {
+              "billStatus" : 1,
+              "commission" : 650,
+              "counter" : [ 126, 224, 235, 135, 127, 111, 202 ],
+              "sales" : 2600
+            },
+            "start" : 3
+          }
+        },
+        "screens" : [ null, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        } ]
+      },
+      "WpZVTXVAxLVVgzcM2ubhvSsASIX2" : {
+        "details" : {
+          "address" : "WalkerCox, Street",
+          "city" : "Schaumburg",
+          "companyName" : "Walker Company",
+          "email" : "CoxWalker@gmail.com",
+          "ownerName" : "Cox Walker",
+          "phone" : "+3(954)559-78-28",
+          "state" : "Florida",
+          "storeName" : "Walker Gaming",
+          "zipCode" : "413 149"
+        },
+        "payment" : {
+          "totalCommission" : 2000,
+          "totalSales" : 4000,
+          "weeks" : {
+            "1" : {
+              "billStatus" : 1,
+              "commission" : 650,
+              "counter" : [ 148, 88, 186, 207, 109, 120, 229 ],
+              "sales" : 2600
+            },
+            "2" : {
+              "billStatus" : 0,
+              "commission" : 350,
+              "counter" : [ 160, 203, 78, 175, 52, 161, 206 ],
+              "sales" : 1050
+            },
+            "3" : {
+              "billStatus" : 1,
+              "commission" : 400,
+              "counter" : [ 139, 208, 90, 196, 73, 217, 194 ],
+              "sales" : 1600
+            },
+            "4" : {
+              "billStatus" : 1,
+              "commission" : 550,
+              "counter" : [ 66, 182, 55, 233, 100, 50, 238 ],
+              "sales" : 1650
+            },
+            "5" : {
+              "billStatus" : 0,
+              "commission" : 400,
+              "counter" : [ 123, 181, 194, 84, 107, 182, 132 ],
+              "sales" : 1200
+            },
+            "6" : {
+              "billStatus" : 2,
+              "commission" : 500,
+              "counter" : [ 194, 214, 138, 169, 192, 158, 95 ],
+              "sales" : 1500
+            },
+            "start" : 1
+          }
+        },
+        "screens" : [ null, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        } ]
+      },
+      "UID4" : {
+        "details" : {
+          "address" : "DiazMartin, Street",
+          "city" : "San Jose",
+          "companyName" : "Diaz Company",
+          "email" : "MartinDiaz@gmail.com",
+          "ownerName" : "Martin Diaz",
+          "phone" : "+7(723)117-61-41",
+          "state" : "Delaware",
+          "storeName" : "Diaz Gaming",
+          "zipCode" : "290 529"
+        },
+        "payment" : {
+          "totalCommission" : 3500,
+          "totalSales" : 7000,
+          "weeks" : {
+            "1" : {
+              "billStatus" : 2,
+              "commission" : 200,
+              "counter" : [ 118, 131, 149, 120, 146, 209, 161 ],
+              "sales" : 400
+            },
+            "2" : {
+              "billStatus" : 2,
+              "commission" : 900,
+              "counter" : [ 54, 184, 146, 165, 181, 104, 200 ],
+              "sales" : 2700
+            },
+            "3" : {
+              "billStatus" : 2,
+              "commission" : 600,
+              "counter" : [ 246, 57, 183, 133, 138, 215, 173 ],
+              "sales" : 1800
+            },
+            "4" : {
+              "billStatus" : 2,
+              "commission" : 750,
+              "counter" : [ 225, 61, 202, 202, 176, 224, 92 ],
+              "sales" : 1500
+            },
+            "5" : {
+              "billStatus" : 1,
+              "commission" : 850,
+              "counter" : [ 154, 88, 210, 243, 88, 121, 210 ],
+              "sales" : 1700
+            },
+            "6" : {
+              "billStatus" : 2,
+              "commission" : 750,
+              "counter" : [ 202, 125, 232, 88, 131, 247, 76 ],
+              "sales" : 2250
+            },
+            "start" : 1
+          }
+        },
+        "screens" : [ null, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        } ]
+      },
+      "UID5" : {
+        "details" : {
+          "address" : "MurphyPeterson, Street",
+          "city" : "Sacramento",
+          "companyName" : "Murphy Company",
+          "email" : "PetersonMurphy@gmail.com",
+          "ownerName" : "Peterson Murphy",
+          "phone" : "+4(933)568-64-51",
+          "state" : "Florida",
+          "storeName" : "Murphy Gaming",
+          "zipCode" : "531 952"
+        },
+        "payment" : {
+          "totalCommission" : 2500,
+          "totalSales" : 7500,
+          "weeks" : {
+            "5" : {
+              "billStatus" : 0,
+              "commission" : 250,
+              "counter" : [ 135, 107, 162, 169, 206, 127, 58 ],
+              "sales" : 1000
+            },
+            "6" : {
+              "billStatus" : 0,
+              "commission" : 200,
+              "counter" : [ 187, 63, 116, 194, 169, 202, 173 ],
+              "sales" : 800
+            },
+            "7" : {
+              "billStatus" : 2,
+              "commission" : 950,
+              "counter" : [ 220, 239, 89, 196, 128, 160, 56 ],
+              "sales" : 1900
+            },
+            "8" : {
+              "billStatus" : 0,
+              "commission" : 350,
+              "counter" : [ 218, 155, 56, 124, 81, 200, 211 ],
+              "sales" : 1050
+            },
+            "9" : {
+              "billStatus" : 2,
+              "commission" : 400,
+              "counter" : [ 126, 157, 68, 201, 141, 137, 104 ],
+              "sales" : 1600
+            },
+            "10" : {
+              "billStatus" : 1,
+              "commission" : 500,
+              "counter" : [ 235, 127, 111, 218, 208, 200, 104 ],
+              "sales" : 1000
+            },
+            "start" : 5
+          }
+        },
+        "screens" : [ null, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        } ]
+      },
+      "UID6" : {
+        "details" : {
+          "address" : "JenkinsGreen, Street",
+          "city" : "Rockford",
+          "companyName" : "Jenkins Company",
+          "email" : "GreenJenkins@gmail.com",
+          "ownerName" : "Green Jenkins",
+          "phone" : "+7(355)394-40-72",
+          "state" : "Georgia",
+          "storeName" : "Jenkins Gaming",
+          "zipCode" : "198 205"
+        },
+        "payment" : {
+          "totalCommission" : 3500,
+          "totalSales" : 7000,
+          "weeks" : {
+            "5" : {
+              "billStatus" : 1,
+              "commission" : 250,
+              "counter" : [ 93, 236, 190, 184, 155, 110, 83 ],
+              "sales" : 750
+            },
+            "6" : {
+              "billStatus" : 1,
+              "commission" : 800,
+              "counter" : [ 125, 181, 58, 102, 100, 231, 96 ],
+              "sales" : 1600
+            },
+            "7" : {
+              "billStatus" : 0,
+              "commission" : 750,
+              "counter" : [ 84, 170, 214, 130, 131, 50, 131 ],
+              "sales" : 3000
+            },
+            "8" : {
+              "billStatus" : 0,
+              "commission" : 700,
+              "counter" : [ 239, 171, 248, 78, 173, 74, 107 ],
+              "sales" : 1400
+            },
+            "9" : {
+              "billStatus" : 1,
+              "commission" : 350,
+              "counter" : [ 110, 102, 225, 119, 243, 224, 132 ],
+              "sales" : 1400
+            },
+            "10" : {
+              "billStatus" : 0,
+              "commission" : 750,
+              "counter" : [ 99, 67, 241, 203, 57, 192, 155 ],
+              "sales" : 3000
+            },
+            "start" : 5
+          }
+        },
+        "screens" : [ null, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        } ]
+      },
+      "UID7" : {
+        "details" : {
+          "address" : "JonesParker, Street",
+          "city" : "Oakland",
+          "companyName" : "Jones Company",
+          "email" : "ParkerJones@gmail.com",
+          "ownerName" : "Parker Jones",
+          "phone" : "+7(788)631-40-12",
+          "state" : "Florida",
+          "storeName" : "Jones Gaming",
+          "zipCode" : "279 994"
+        },
+        "payment" : {
+          "totalCommission" : 5000,
+          "totalSales" : 10000,
+          "weeks" : {
+            "5" : {
+              "billStatus" : 1,
+              "commission" : 800,
+              "counter" : [ 50, 175, 80, 242, 53, 197, 230 ],
+              "sales" : 3200
+            },
+            "6" : {
+              "billStatus" : 1,
+              "commission" : 200,
+              "counter" : [ 98, 58, 51, 168, 56, 182, 158 ],
+              "sales" : 800
+            },
+            "7" : {
+              "billStatus" : 2,
+              "commission" : 200,
+              "counter" : [ 146, 147, 203, 76, 212, 69, 111 ],
+              "sales" : 600
+            },
+            "8" : {
+              "billStatus" : 0,
+              "commission" : 450,
+              "counter" : [ 209, 241, 70, 69, 220, 215, 211 ],
+              "sales" : 900
+            },
+            "9" : {
+              "billStatus" : 2,
+              "commission" : 600,
+              "counter" : [ 83, 66, 114, 99, 136, 148, 178 ],
+              "sales" : 1800
+            },
+            "10" : {
+              "billStatus" : 1,
+              "commission" : 550,
+              "counter" : [ 171, 103, 115, 92, 135, 178, 164 ],
+              "sales" : 1650
+            },
+            "start" : 5
+          }
+        },
+        "screens" : [ null, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        }, {
+          "lockStatus" : 1,
+          "loggedinStatus" : 0
+        } ]
+      }
+    },
+    "Winners" : {
+      "5NRlQnIpAUPJO4F7PJphNniwejk1" : {
+        "2021-04-07" : [ null, {
+          "3" : {
+            "predictions" : "",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-08" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-09" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-10" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-11" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-14" : [ {
+          "3" : {
+            "predictions" : "121,112",
+            "winNum" : "121"
+          }
+        } ],
+        "2021-04-18" : [ {
+          "3" : {
+            "predictions" : "121,112",
+            "winNum" : "121"
+          },
+          "4" : {
+            "predictions" : "1121",
+            "winNum" : "1121"
+          }
+        }, {
+          "3" : {
+            "predictions" : "112,121",
+            "winNum" : "121"
+          }
+        } ]
+      },
+      "JQMJj6DvZihk63RDHoyCFq6rEYi1" : {
+        "2021-04-07" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-08" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-09" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-10" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-11" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-14" : [ {
+          "3" : {
+            "predictions" : "121",
+            "winNum" : "121"
+          }
+        } ],
+        "2021-04-18" : [ {
+          "3" : {
+            "predictions" : "121",
+            "winNum" : "121"
+          }
+        } ]
+      },
+      "OaKf3UYSmeaRKUFgEwrezNWEWe53" : {
+        "2021-04-07" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-08" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-09" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-10" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ],
+        "2021-04-11" : [ null, {
+          "3" : {
+            "predictions" : "145,514",
+            "winNum" : "541"
+          },
+          "4" : {
+            "predictions" : "1845,5184",
+            "winNum" : "5481"
+          }
+        } ]
+      }
+    }
+  }
+}
